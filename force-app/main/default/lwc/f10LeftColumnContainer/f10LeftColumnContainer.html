@@ -1,0 +1,22 @@
+<template>
+    <div class={checkClass} onclick={checks}>
+       <span><lightning-icon icon-name="utility:task"></lightning-icon></span>
+       Files Requested
+       <template if:true={count1}>
+           <div class="numberCircle">{requestedCount}</div>
+       </template>
+   </div>
+   <div class={messClass} onclick={messages}>
+       <span><lightning-icon icon-name="utility:chat"></lightning-icon></span>
+       Message Center
+       <template if:true={count3}>
+           <div class="numberCircle">{messageCount}</div>
+       </template>
+   </div>
+   <template if:false={portal}>
+       <div class={userClass} onclick={user}>
+           <span><lightning-icon icon-name="utility:user"></lightning-icon></span>
+           Portal Users
+       </div>
+   </template>
+</template>

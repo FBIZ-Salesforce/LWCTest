@@ -1,18 +1,14 @@
-# Salesforce DX Project: Next Steps
+# FBIZ LWC Salesforce Case Study 1
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+The business has asked to have an option to minimize the left hand menu options into a collapsed menu list with just an icon.  At certain parts of the business process the menu will need to show the full menu (as the LWC currently looks today), but at other times in the process they need additional screen real-estate space and would like to minimize the menu options to a single icon.  Your job is to figure out how to best meet the business's requirements.
 
-## How Do You Plan to Deploy Your Changes?
+##Step 1
+1) After reviewing the code, document what you plan to do.
+2) How much time do you estimate this taking you?
+3) Identify existing code ineficiencies, and how you plan to simplify the code.  
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+##Step 2
+1) Pull the code into a scratch/dev org and make the changes.
+2) Send a screenshot of full menu, and the collapsed menu to the hiring manager. 
 
-## Configure Your Salesforce DX Project
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)

@@ -1,6 +1,6 @@
 # FBIZ LWC Salesforce Case Study 1
 
-The business has asked to have an option to minimize the left hand menu options into a collapsed menu list with just an icon.  At certain parts of the business process the menu will need to show the full menu (as the LWC currently looks today), but at other times in the process they need additional screen real-estate space and would like to minimize the menu options to a single icon.  Your job is to figure out how to best meet the business's requirements.
+The business has asked to have an option to minimize the left hand menu options into a collapsed menu list with just an icon.  At certain parts of the business process the menu will need to show the full menu (as the LWC currently looks today), but at other times in the process they need additional screen real-estate space and would like to minimize the menu options to a single icon.  Your job is to figure out how to best meet the business's requirements for the f10LeftColumnContainer LWC.  
 
 ## Step 1
 1) After reviewing the code, document what you plan to do.
